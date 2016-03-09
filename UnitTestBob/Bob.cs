@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace UnitTestBob
 {
-    class Bob
+    public class Bob
     {
+       /* public string hey(string remark)
+        {
+            return remark;
+        }*/
+        public string hey(string remark)
+        {
+            if (remark.EndsWith("!"))
+            {
+                return "Whoa, chill out!";
+            }
+            return "Whatever.";
+        }
     }
 }
