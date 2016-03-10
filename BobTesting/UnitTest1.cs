@@ -26,7 +26,7 @@ namespace BobTesting
             Assert.AreEqual("Whoa, chill out!", bob.hey(remark));
         }
 
-       /* [TestMethod]
+       [TestMethod]
         public void test_shouting_gibberish()
         {
 
@@ -38,7 +38,7 @@ namespace BobTesting
 
             Assert.AreEqual("Whoa, chill out!", bob.hey(remark));
         }
-/*
+
         [TestMethod]
         public void test_asking_a_question()
         {
@@ -176,7 +176,7 @@ namespace BobTesting
             remark = @"Does this cryogenic chamber make me look fat?
                        no";
             Assert.AreEqual("Whatever.", bob.hey(remark));
-        }*/
+        }
 
     }
 }
